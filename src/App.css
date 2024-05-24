@@ -1,0 +1,111 @@
+/* App.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.todos {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 40px;
+}
+
+.todo__input {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.todo__input div {
+  flex: 1;
+  min-width: 200px;
+}
+
+.todo__input label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #bbbbbb;
+}
+
+.todo__input input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #555;
+  border-radius: 5px;
+  background-color: #333;
+  color: #ffffff;
+}
+
+.todo__input button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.todo__input button:hover {
+  background-color: #45a049;
+}
+
+.todo__list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo__list li {
+  background-color: #2c2c2c;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #444;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo__list img {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.todo__list button {
+  margin-left: 10px;
+}
+
+.todo__list button.edit {
+  background-color: #ffc107;
+}
+
+.todo__list button.delete {
+  background-color: #f44336;
+}
+
+button {
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.text-red-500 {
+  color: #f44336;
+}
+.add__button{
+  margin-top: 30px;
+}
